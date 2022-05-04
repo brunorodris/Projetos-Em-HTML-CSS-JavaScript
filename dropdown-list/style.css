@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    color: #fff;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+section{
+    width: 70%;
+    max-width: 800px;
+}
+
+section details{
+    font-size: 18px;
+}
+
+section details summary{
+    background-color: #e41952;
+    padding: 2%;
+    border-bottom: 2px solid #282828;
+}
+
+section details p{
+    background-color: #282828;
+    padding: 2%;
+    transition: all .5s;
+}
