@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 6%;
+}
+
+form{
+    background: #fff;
+    max-width: 500px;
+    height: 450px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+form h1{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #2D5966;
+    font-size: 22pt;
+}
+
+form p{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form .input-single{
+    position: relative;
+    margin: 30px 0;
+}
+
+form .input-single label{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    cursor: text;
+    transition: all 0.5s;
+    color: #808080;
+}
+
+form .input-single .input{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #808080;
+    padding: 5px;
+    outline: 0;
+    font-size: 16px;
+}
+
+form .input-single .input:focus{
+    border-bottom: 2px solid #2D5966;
+}
+
+form .input-single .input:focus ~ label,
+form .input-single .input:valid ~ label{
+    transform: translateY(-20px);
+    font-size: 12px;
+    color: #2D5966;
+}
+
+.btn{
+    width: 100%;
+    text-align: center;
+}
+
+form input[type=submit]{
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #2D5966;
+    color: #fff;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
