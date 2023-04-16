@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+.page1{
+    background-color: #f64740;
+}
+.page2{
+    background-color: #3772ff;
+}
+.page3{
+    background-color: #fdca40;
+}
+.page4{
+    background-color: #00ffae;
+}
+.page5{
+    background-color: #06070e;
+}
+
+section{
+  
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}

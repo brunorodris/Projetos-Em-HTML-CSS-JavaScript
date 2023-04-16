@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #ccc;
+    height: 1900px;
+}
+
+.cookies-msg{
+    width: 80%;
+    background-color: #fff;
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 15px;
+    display: none;
+}
+
+.cookies-msg.mostrar{
+    display: block;
+}
+
+.cookies-msg .cookies-txt{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+}
+
+.cookies-msg .cookies-btn{
+    margin-left: 30px;
+}
+
+.cookies-msg .cookies-btn button{
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.cookies-msg .cookies-btn button:hover{
+    transform: scale(0.9);
+}

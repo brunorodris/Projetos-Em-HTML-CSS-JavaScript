@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário Personalizado</title>
+</head>
+<body>
+    <section class="form-container">
+        <div class="container">
+            <form method="post" action="envia.php">
+                <h1>Entre em contato</h1>
+                <p>Preencha o formulário abaixo e entraremos em contato com você</p>
+                <div class="input-single">
+                    <input class="input" type="text" id="nome" name="nome" required autocomplete="off">
+                    <label for="nome">Seu nome completo</label>
+                </div>
+                <div class="input-single">
+                    <input class="input" type="text" id="email" name="email" required autocomplete="off">
+                    <label for="email">Seu e-mail</label>
+                </div>
+                <div class="input-single">
+                    <input class="input" type="text" id="telefone" name="telefone" required autocomplete="off">
+                    <label for="telefone">Seu telefone</label>
+                </div>
+                <div class="btn"><input type="submit" value="Enviar"></div>
+            </form>
+        </div><!--container-->
+    </section>
+</body>
+</html>
