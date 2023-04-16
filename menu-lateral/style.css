@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.navigation{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    background-color: #202020;
+    width: 70px;
+    box-shadow: 5px 0 0 #FF0077;
+    border-left: 5px solid #000;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.navigation.expand{
+    width: 300px;
+}
+
+.navigation ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 0 0 5px;
+}
+
+.navigation ul li{
+    position: relative;
+    list-style: none;
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+    transition: .5s;
+    margin-bottom: 20px;
+}
+
+.navigation ul li:hover{
+    background-color: #5c5c5c;
+}
+
+.navigation ul li a{
+    position: relative;
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.navigation ul li a .icon i{
+    position: relative;
+    font-size: 34px;
+    z-index: 1;
+}
+
+.navigation ul li a .title{
+    position: relative;
+    display: block;
+    padding-left: 20px;
+    height: 60px;
+    line-height: 70px;
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+.navigation ul li.ativo{
+    background-color: #FF0077;
+}

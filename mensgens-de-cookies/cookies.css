@@ -1,0 +1,60 @@
+/* CSS DOS COOKIES */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cookies{
+    width: 80%;
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #fff;
+    display: none;
+}
+
+.cookies .txt-cookies{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+    box-shadow: 0px 0px 9px 5px #00000040;
+    border-radius: 20px;
+}
+
+.cookies .btn-cookies{
+    margin-left: 40px;
+}
+
+.cookies .btn-cookies button{
+    padding: 10px 40px;
+    border: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.cookies .btn-cookies button:hover{
+    transform: scale(0.9);
+}
+
+.cookies.mostrar{
+    display: block;
+}
+
+@media screen and (max-width: 900px) {
+    .cookies .txt-cookies{
+        flex-direction: column;
+    }
+
+    .cookies .btn-cookies{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    
+}
