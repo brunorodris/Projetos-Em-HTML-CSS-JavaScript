@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit",sans-serif;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to left, #02DBE4, #000131);
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.txt-leads{
+    text-align: center;
+}
+
+.txt-leads h1{
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: left;
+}
+
+.txt-leads h1 span{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.txt-leads img{
+    width: 320px;
+    margin: 60px 0;
+}
+
+.txt-leads p{
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.txt-leads p span{
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+form{
+    width: 100%;
+    background-color: #00000055;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+form h2{
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    line-height: 20px;
+    margin-bottom: 60px;
+}
+
+form h2 span{
+    font-size: 0.5em;
+}
+
+.input-box{
+    margin-bottom: 20px;
+}
+
+.input-box label{
+    display: block;
+    color: #fff;
+}
+
+.input-box input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-enviar{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn-enviar input{
+    width: 140px;
+    height: 50px;
+    border: 0;
+    background-color: #01DAFE;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+}
