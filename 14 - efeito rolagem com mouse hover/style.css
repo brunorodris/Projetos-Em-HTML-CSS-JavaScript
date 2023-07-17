@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-port{
+    width: 360px;
+    height: 660px;
+    background-size: cover;
+    background-position: 100% 0%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.img-port:hover{
+    background-position: 100% 100%;
+}
+
+.site1{
+    background-image: url(images/imagem.jpg);
+    transition: 100s;
+}
+
+.site2{
+    background-image: url(images/imagem2.jpg);
+    transition: 10s;
+}
